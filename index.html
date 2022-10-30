@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+#bg {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 0, 1) 17%, rgba(0, 255, 0, 1) 33%, rgba(0, 255, 255, 1) 50%, rgba(0, 0, 255, 1) 67%, rgba(255, 0, 255, 1) 83%, rgba(255, 0, 0, 1) 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+#fgtop {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  top: 0px;
+}
+
+#fgbot {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  top: 50vh;
+}
+
+</style>
+<body>
+<div id=bg></div>
+<div id=fgtop></div>
+<div id=fgbot></div>
+</body>
+</html>
